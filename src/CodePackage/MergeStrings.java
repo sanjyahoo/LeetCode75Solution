@@ -20,6 +20,6 @@ public class MergeStrings {
     }
 
     public static void main(String[] args) {
-        mergeAlternately("abc","pqr");
+        mergeAlternately("uiyyiu","rtart");
     }
 }
