@@ -5,16 +5,13 @@ public class removeElementArrangeArray {
         int count=0;
         int slow=0;
         for(int fast=0;fast<nums.length-1;fast++){
-            if(nums[slow]!=val){
+            if(nums[fast]!=val){
+                nums[slow] = nums[fast];
                 slow++;
-                count++;
-            } else{
-                nums[slow]=nums[fast];
-                fast++;
             }
         }
-        System.out.println(count);
-        return count;
+        System.out.println(slow);
+        return slow;
     }
 
     public static void main(String[] args) {
