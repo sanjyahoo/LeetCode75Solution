@@ -26,7 +26,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int ar[] = {1,8,6,2,5,4,8,3,7};
-        new TwoSum().solve1(ar,15);
+        int ar[] = {3,2,4};
+        new TwoSum().solve1(ar,6);
     }
 }
