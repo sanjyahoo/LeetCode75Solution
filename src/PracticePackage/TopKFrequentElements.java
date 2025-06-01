@@ -22,14 +22,12 @@ public class TopKFrequentElements {
             buckets[i] = new ArrayList<>();
         }
 
-        // Step 3: Fill buckets with numbers grouped by frequency
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
             int freq = entry.getValue();
             int num = entry.getKey();
             buckets[freq].add(num);
         }
 
-        // Step 4: Collect top k frequent elements from buckets
         int[] result = new int[k];
         int count = 0;
 
