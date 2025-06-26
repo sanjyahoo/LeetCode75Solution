@@ -13,7 +13,7 @@ public class ReverseString {
             left++;
             right--;
         }
-        System.out.println();
+        System.out.println(s);
     }
     public static void main(String[] args) {
         char[] s = {'h','e','l','l','o'};
