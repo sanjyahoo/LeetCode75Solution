@@ -1,7 +1,3 @@
 # Created by .ignore support plugin (hsz.mobi)
-!/.idea/
-out
 LeetCode75Solutions.iml
-out/production/LeetCode75Solutions/PracticePackage/Leetcode2465.class
-out/production/LeetCode75Solutions/PracticePackage/RunningArraySum1D.class
-out/production/LeetCode75Solutions/PracticePackage/pivotIndex.class
+out
