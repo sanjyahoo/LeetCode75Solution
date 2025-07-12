@@ -9,9 +9,9 @@ public class Pattern4 {
 //6 6 6 6 6 6
 //7 7 7 7 7 7 7
     public static void main(String[] args) {
-        int j=0;
+        int j=1;
         for(int k=1;k<8;k++){
-            for(int i=1;i<k;i++){
+            for(int i=0;i<k;i++){
                 System.out.print(j+" ");
             }
             j++;
